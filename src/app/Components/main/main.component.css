@@ -1,0 +1,20 @@
+.news-div {
+    padding: 2em;
+}
+
+.card {
+    border-top-width: 0.4em;
+    border-top-color: orange;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    align-self: center;
+}
+
+.media-body {
+    display: block;
+    padding: 1.2em;
+    padding-bottom: 0;
+}
