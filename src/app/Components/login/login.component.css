@@ -1,0 +1,33 @@
+ img {
+     height: 100vh;
+     /* width: fit-content;
+     background-size: cover;
+     background-position: left; */
+ }
+ 
+ .row {
+     justify-content: baseline;
+ }
+ 
+ .login {
+     align-items: center;
+     padding: 2em;
+     padding-left: 5em;
+ }
+ 
+ form {
+     width: 400px;
+     align-items: center;
+ }
+ 
+ @media (max-width: 775px) {
+     img {
+         display: none;
+     }
+     .row {
+         justify-content: space-evenly;
+     }
+     form {
+         align-items: center;
+     }
+ }
